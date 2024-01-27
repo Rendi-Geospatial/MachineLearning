@@ -20,3 +20,9 @@ Time series forecasting neural networks have many variants:
         - Vector Output Model (The same as usual archtiecture)
         - Encoder-Decoder Model
 
+
+There are 4 time series experiments:
+- univariate: (1) Vanilla LSTM, (2) univariate (non-stationary), (3) na, (4) Step-forward. Pre-processing: non-stationary
+- multivariate: (1) All neural network architecture, (2) multivariate (stationary), (3) Multiple input series, (4) Step-forward
+-
+- 
