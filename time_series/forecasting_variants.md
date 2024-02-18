@@ -21,8 +21,9 @@ Time series forecasting neural networks have many variants:
         - Encoder-Decoder Model
 
 
-There are 4 time series experiments:
+There are 5 time series experiments:
 - univariate: (1) Vanilla LSTM, (2) univariate (non-stationary), (3) na, (4) step-forward.
 - multivariate: (1) All neural network architecture, (2) multivariate (stationary), (3) multiple input series, (4) step-forward.
 - parallel: (1) Stacked LSTM, (2) multivariate (stationary), (3) multiple parallel series, (4) step-forward.
 - multistep: (1) Stacked LSTM, (2) multivariate (stationary), (3) multiple input series, (4) multi-step.
+- encoder_decoder: (1) encoder-decoder with Vanilla LSTM, (2) multivariate (stationary), (3) multiple parallel series, (4) multi-step.
