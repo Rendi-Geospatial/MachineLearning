@@ -15,7 +15,7 @@ Time series forecasting neural networks have many variants:
     - Multiple Parallel Series (forecast multiple dependent variables)
 
 4. The number of forecast steps
-    - Step-forward (forecast one step of time ahead)
+    - Single-step (forecast one step of time ahead)
     - Multi-step (forecast multiple step of time ahead)
         - Vector Output Model (The same as usual archtiecture)
         - Encoder-Decoder Model
